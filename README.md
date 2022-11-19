@@ -4,10 +4,10 @@ Welcome to Danny's Flask API App, where bread ingredients come to turn into reci
 
 ## The Install Dependencies are the following
 
--- pipenv
--- peewee
--- flask
--- psycopq2-binary
+--pipenv
+--peewee
+--flask
+--psycopq2-binary
 
 ## Running the API
 
@@ -41,12 +41,12 @@ Finally if you access [127.0.0.1:9000/bread/<name>](127.0.0.1:9000/bread/<name>)
 
 ## The schema for the bread recipes is the following and it is strict
 
--- name
--- four_grams = <grams_of_wheat>
--- water_grams = <grams_of_wheat>
--- salt_grams = <grams_of_wheat>
--- yeast_grams = <grams_of_wheat>
--- starter_grams = <grams_of_wheat>
--- servings_grams = <grams_of_wheat>
+--name
+--four_grams = <grams_of_wheat>
+--water_grams = <grams_of_wheat>
+--salt_grams = <grams_of_wheat>
+--yeast_grams = <grams_of_wheat>
+--starter_grams = <grams_of_wheat>
+--servings_grams = <grams_of_wheat>
 
 ### Future Goals for the API include more fleshed out recieps
